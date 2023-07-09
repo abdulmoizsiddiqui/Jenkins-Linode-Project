@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('docker') {
+      steps {
+        sh 'ls -la'
+      }
+    }
+
   }
 }
