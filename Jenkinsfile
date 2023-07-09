@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Checkout Code') {
+    stage('Code Review') {
       steps {
-        git(url: 'https://github.com/abdulmoizsiddiqui/Jenkins-Linode-Project.git', branch: 'dev')
+        git(url: 'https://github.com/abdulmoizsiddiqui/feedback-app.git', branch: 'master')
       }
     }
 
