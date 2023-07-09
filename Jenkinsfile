@@ -15,7 +15,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh '''docker build Jenkins-Linode-Project .
+        sh '''docker build Jenkins-Linode-Project/Dockerfile .
 '''
       }
     }
