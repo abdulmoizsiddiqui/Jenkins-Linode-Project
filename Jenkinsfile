@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('docker') {
+    stage('log') {
       steps {
         sh 'ls -la'
       }
