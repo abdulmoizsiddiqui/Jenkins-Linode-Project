@@ -13,7 +13,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Build') {
       steps {
         sh '''docker build -f Jenkins-Linode-Project .
 '''
